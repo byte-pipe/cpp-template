@@ -1,0 +1,52 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+.build/
+
+# CMake generated files (in build dirs)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.o
+*.obj
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.xcodeproj
+*.xcworkspace
+
+# Test and coverage files
+*.gcda
+*.gcno
+*.gcov
+coverage.info
+coverage/
+*.log
+
+# Package files
+*.tar.gz
+*.zip
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
